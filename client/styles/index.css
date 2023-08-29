@@ -1,21 +1,25 @@
 body {
-  position: absolute;
   background-image: url('../images/app-images/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 20px;
   font-family: 'Chewy', cursive;
-  margin: none;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
   color: #e1805a;
   font-size: 103px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  color: #90c1c6;
+  font-size: 37px;
 }
 
 h5 {
@@ -26,13 +30,26 @@ h5 {
 
 .navbar {
   background-color: #90c1c6;
-  margin: none;
-  width: 1728px;
+  /* width: 1728px; */
   height: 99px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.navbar .left-side {
-  padding: none;
+.left-side {
+  padding-right: 500px;
+  margin-left: 20px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
 .main-page {
@@ -40,9 +57,21 @@ h5 {
   stroke: #d7a56d;
   stroke-width: 6px;
   border-radius: 7px;
+  margin: 40px;
 }
 
 .search-bar {
   stroke: #d7a56d;
   stroke-width: 5px;
+}
+
+.hobby-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #ffda80;
+  width: 220.884px;
+  height: 205.169px;
+  border-radius: 12px;
+  margin: 50px;
 }

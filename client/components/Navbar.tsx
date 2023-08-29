@@ -5,7 +5,10 @@ export default function navBar() {
         <h5>Same Knit Different Day</h5>
       </div>
       <div className="right-side">
-        <img src="../images/app-images/profile-img.png" alt="" />
+        <h5>Profile</h5>
+        <h5>Cart</h5>
+        <h5>Favourites</h5>
+        <h5>NZD</h5>
       </div>
     </div>
   )
