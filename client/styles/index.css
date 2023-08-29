@@ -1,8 +1,48 @@
 body {
   position: absolute;
+  background-image: url('../images/app-images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   top: 0;
   left: 0;
   margin: 0;
   padding: 20px;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Chewy', cursive;
+  margin: none;
+  text-align: center;
+}
+
+h1 {
+  color: #e1805a;
+  font-size: 103px;
+}
+
+h5 {
+  color: #fff0df;
+  font-size: 45px;
+  text-align: left;
+}
+
+.navbar {
+  background-color: #90c1c6;
+  margin: none;
+  width: 1728px;
+  height: 99px;
+}
+
+.navbar .left-side {
+  padding: none;
+}
+
+.main-page {
+  background-color: #fff0df;
+  stroke: #d7a56d;
+  stroke-width: 6px;
+  border-radius: 7px;
+}
+
+.search-bar {
+  stroke: #d7a56d;
+  stroke-width: 5px;
 }
