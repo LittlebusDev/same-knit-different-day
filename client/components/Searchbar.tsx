@@ -5,7 +5,7 @@ export default function SearchBar() {
         <h4>search for patterns</h4>
       </div>
       <div className="search-btn">
-        <img src="../images/app-images/search.png" alt="" />
+        <img src="../images/app-images/search.png" alt="search icon" />
       </div>
     </div>
   )

@@ -11,6 +11,7 @@ body {
 h1 {
   color: #e1805a;
   font-size: 103px;
+  margin: 0;
 }
 
 h3 {
@@ -20,27 +21,34 @@ h3 {
 h4 {
   color: #90c1c6;
   font-size: 37px;
+  margin: 0;
+  padding-left: 14px;
+  padding-top: 8px;
 }
 
 h5 {
   color: #fff0df;
   font-size: 45px;
-  text-align: left;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .navbar {
-  background-color: #90c1c6;
-  /* width: 1728px; */
-  height: 99px;
   display: flex;
   flex-direction: row;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-  margin-top: 0;
-  padding-top: 0;
+  justify-content: space-around;
+  background-color: #90c1c6;
+  height: 99px;
 }
 
-.left-side {
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: right;
+}
+
+/* .left-side {
   padding-right: 500px;
   margin-left: 20px;
 }
@@ -50,28 +58,56 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 20px;
-}
+} */
 
 .main-page {
   background-color: #fff0df;
-  stroke: #d7a56d;
-  stroke-width: 6px;
+  border-style: solid;
   border-radius: 7px;
-  margin: 40px;
+  border-color: #d7a56d;
+  border-width: 6px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 170px;
+  padding: 30px;
 }
+
+/* SEARCHBAR */
 
 .search-bar {
-  stroke: #d7a56d;
-  stroke-width: 5px;
-}
-
-.hobby-btn {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 47px;
+}
+.left {
+  border-radius: 7px;
+  border-color: #d7a56d;
+  border-width: 3px;
+  border-style: solid;
+  padding: 0;
+  height: 66px;
+  width: 965px;
+  text-align: left;
+}
+
+.search-btn {
+  background-color: #90c1c6;
+  height: 66px;
+  border-radius: 7px;
+}
+
+.hobby-btn {
   background: #ffda80;
   width: 220.884px;
   height: 205.169px;
   border-radius: 12px;
-  margin: 50px;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }

@@ -5,10 +5,10 @@ export default function navBar() {
         <h5>Same Knit Different Day</h5>
       </div>
       <div className="right-side">
-        <h5>Profile</h5>
-        <h5>Cart</h5>
-        <h5>Favourites</h5>
-        <h5>NZD</h5>
+        <p>Profile</p>
+        <p>Cart</p>
+        <p>Favourites</p>
+        <p>NZD</p>
       </div>
     </div>
   )
