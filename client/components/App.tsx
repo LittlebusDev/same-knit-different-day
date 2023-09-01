@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom'
 import Navbar from './Navbar'
 import MainPage from './MainPage'
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <MainPage />
+      <Outlet />
     </>
   )
 }

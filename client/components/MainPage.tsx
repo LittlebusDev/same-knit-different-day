@@ -1,7 +1,7 @@
 import SearchBar from './Searchbar'
 import HobbyBtn from './HobbyBtn'
 
-export default function mainPage() {
+export default function MainPage() {
   return (
     <div className="main-page">
       <h1>Pattern Library</h1>
