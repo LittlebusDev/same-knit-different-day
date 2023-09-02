@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 // import { Link } from 'react-router-dom'
 import { fetchAllKnitting } from '../apis/apiClient'
-// import type { Pattern } from '../../models/patterns'
+import type { Pattern } from '../../models/patterns'
 
 export default function KnittingList() {
   const {
@@ -23,14 +23,13 @@ export default function KnittingList() {
   return (
     <>
       <h2>Knitting</h2>
-
-      {/* <ul>
-    {knitting.map(i) => (
-      <li key={i.id}>
-
-      </li>
-    )}
-  </ul> */}
+      <ul>
+        {knitting.map((pattern: Pattern) => (
+          <li key={pattern.id}>
+            Pattern name: {pattern.name}, Made in Year: {pattern.year}
+          </li>
+        ))}
+      </ul>
     </>
   )
 }

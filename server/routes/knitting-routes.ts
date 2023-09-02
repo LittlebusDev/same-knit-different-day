@@ -4,7 +4,7 @@ import * as db from '../db/knitting'
 const router = express.Router()
 
 //GET /api/v1/knitting
-router.get('/knitting', async (req, res) => {
+router.get('/', async (req, res) => {
   console.log('server')
   try {
     const knitting = await db.getAllKnitting()

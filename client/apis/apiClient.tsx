@@ -2,7 +2,7 @@ import request from 'superagent'
 
 //GET /api/v1/knitting
 export async function fetchAllKnitting() {
-  const response = await request.get('api/vi/knitting')
+  const response = await request.get('api/v1/knitting')
   console.log('api', response)
   return response.body
 }
