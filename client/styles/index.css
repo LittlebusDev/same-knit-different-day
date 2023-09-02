@@ -103,6 +103,7 @@ h5 {
   width: 220.884px;
   height: 205.169px;
   border-radius: 12px;
+  color: #000;
 }
 
 .hobbies {
@@ -110,4 +111,9 @@ h5 {
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }

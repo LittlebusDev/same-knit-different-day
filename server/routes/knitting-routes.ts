@@ -5,6 +5,7 @@ const router = express.Router()
 
 //GET /api/v1/knitting
 router.get('/knitting', async (req, res) => {
+  console.log('server')
   try {
     const knitting = await db.getAllKnitting()
     res.json(knitting)
@@ -21,3 +22,5 @@ router.get('/knitting', async (req, res) => {
 //   res.json(knittingSingle)}
 //   catch(error){res.status(500)}
 // })
+
+export default router
