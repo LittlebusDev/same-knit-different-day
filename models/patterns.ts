@@ -2,6 +2,10 @@ export interface Pattern {
   id: number
   name: string
   year: number
-  image: Text
+  image: string
   hobby: string
 }
+
+// interface extend Pattern {
+//   id: number
+// }
