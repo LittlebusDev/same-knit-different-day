@@ -15,12 +15,14 @@ router.get('/', async (req, res) => {
 })
 
 //GET api/v1/knitting/:id
-// router.get('/knitting/:id', (req, res) => {
-//   try{
-//   const id = Number(req.params.id)
-//   const knittingSingle = await.getKnittingById(id)
-//   res.json(knittingSingle)}
-//   catch(error){res.status(500)}
-// })
+router.get('/knitting/:id', async (req, res) => {
+  try {
+    const id = Number(req.params.id)
+    const knittingSingle = await db.getKnittingById(id)
+    res.json(knittingSingle)
+  } catch (error) {
+    res.status(500)
+  }
+})
 
 export default router

@@ -7,8 +7,8 @@ export async function fetchAllKnitting() {
   return response.body
 }
 
-//GET /api/v1/knitting/:id
-// export async function fetchKnittingById(id: number) {
-//   const response = await request.get(`api/v1/knitting/${id}`)
-//   return response.body
-// }
+// GET /api/v1/knitting/:id
+export async function fetchKnittingById(id: number) {
+  const response = await request.get(`api/v1/knitting/${id}`)
+  return response.body
+}

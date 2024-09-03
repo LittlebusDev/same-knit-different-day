@@ -9,6 +9,11 @@ export async function getAllKnitting(): Promise<Pattern[]> {
   return allKnitting
 }
 
+export async function getKnittingById(id: number) {
+  const knittingById = await db('knitting').where('id', id).first()
+  return knittingById
+}
+
 // export async function getKnittingById(id: number) {
 //   const knittingById = await db('knitting').where('id', id).first()
 //   return knittingById
